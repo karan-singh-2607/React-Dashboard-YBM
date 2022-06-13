@@ -1,0 +1,22 @@
+@use '../../styles/variables';
+
+.cardAmount {
+  margin-bottom: 0 !important;
+  font-weight: '700 !important';
+}
+.cardInLoss {
+  font-size: 17;
+  font-weight: 700;
+  margin-left: 1rem;
+  color: variables.$Text_danger;
+}
+.cardProfit {
+  font-size: 17;
+  font-weight: 700;
+  margin-left: 1rem;
+  color: variables.$Text_success;
+}
+.infoText {
+  color: variables.$Text_gray;
+  margin-top: 0.25rem;
+}

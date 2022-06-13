@@ -1,0 +1,26 @@
+@use '../../../styles/variables';
+
+.LogoContainer {
+  display: flex;
+  //justify-content: center;
+  align-items: center;
+  padding-left: 20px !important;
+  padding: 6;
+}
+.appHeader {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  background: variables.$White;
+}
+.triggerContainer {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+.ActionCenterContainer {
+  // margin-top: 5px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}

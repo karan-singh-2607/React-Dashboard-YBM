@@ -1,0 +1,61 @@
+@use '../../../../styles/variables';
+
+.label {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  justify-content: flex-start;
+}
+.Form {
+  width: 100%;
+}
+.FormItems {
+  width: 100%;
+  margin: 0;
+}
+
+.RowContainer {
+  align-items: center;
+}
+.InnerRowContainer {
+  width: 100%;
+  align-items: center;
+}
+.RowsContainer {
+  align-items: center;
+  margin-left: 1rem;
+}
+.SelectContainer {
+  width: 100%;
+}
+.DropdownSpanContainer {
+  margin-right: 10px;
+}
+.dorpdownAvatar {
+  color: #ffffff;
+  background-color: #00a2ae;
+}
+.formContainer {
+  margin-top: 10px;
+}
+.formItemContainer {
+  display: inline-block;
+}
+.FormItemAddress {
+  display: inline-block;
+  margin: 10px 0;
+}
+.formContainerCol {
+  padding-right: 10px;
+}
+.formContainerColState {
+  padding-left: 10px;
+}
+.ColCityContainer {
+  padding-right: 10px;
+  display: inline-block;
+  margin: 10px 0;
+}
+// .FormItem {
+//   margin: 10px 0;
+// }

@@ -1,0 +1,14 @@
+@use '../../../../styles/variables';
+
+.ApproveCheck {
+  width: 25px;
+  height: 25px;
+  font-weight: 600;
+  fill: green;
+}
+.Reject {
+  width: 25px;
+  height: 25px;
+  font-weight: 600;
+  fill: red;
+}

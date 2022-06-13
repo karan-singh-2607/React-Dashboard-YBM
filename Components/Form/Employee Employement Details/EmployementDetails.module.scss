@@ -1,0 +1,15 @@
+@use '../../../styles/variables';
+
+.DataContainer {
+  padding-left: 8px;
+  padding-right: 8px;
+  & p {
+    margin: 0;
+    padding-bottom: 5px;
+  }
+  & .DeleteLink {
+    position: absolute;
+    right: 0;
+    top: 15px;
+  }
+}

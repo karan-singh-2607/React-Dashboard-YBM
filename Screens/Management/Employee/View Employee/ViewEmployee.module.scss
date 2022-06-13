@@ -1,0 +1,65 @@
+@import '../../../../styles/variables';
+
+.EditEmployee {
+  width: 25px;
+  height: 25px;
+  font-weight: 600;
+}
+.DeleteEmployee {
+  width: 25px;
+  height: 25px;
+  font-weight: 600;
+  fill: red;
+}
+.SalaryBreakdown {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  flex: 1;
+  & > div {
+    flex: 1;
+    flex-basis: 50%;
+    border-top: 1px;
+    border-left: 1px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: $Secondary_text_color;
+    border-right-width: 0;
+    &:nth-last-child(1) {
+      border-top: 0;
+      border-right-width: 1px;
+      display: flex;
+      & > div {
+        border-left: 1px solid $Secondary_text_color;
+        border-bottom: none;
+        text-align: right;
+        font-weight: 600;
+        &:first-child {
+          border-left: none;
+        }
+      }
+    }
+    & > p {
+      border-bottom: 1px solid $Secondary_text_color;
+      padding: 0 45px;
+      margin: 0;
+    }
+    & > div {
+      display: flex;
+      flex-wrap: nowrap;
+      width: 100%;
+      padding: 5px;
+      border-bottom: 1px solid $Secondary_text_color;
+      &:nth-last-child(1) {
+        border-bottom: none;
+      }
+      & > div {
+        flex: 1;
+        flex-basis: 50%;
+      }
+    }
+  }
+  & .deduction {
+    border-right: 1px solid $Secondary_text_color;
+  }
+}

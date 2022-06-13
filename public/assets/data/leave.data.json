@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "1",
+    "employeename": "Prachi",
+    "to": "01-01-2022",
+    "from": "10-01-2022",
+    "leavetypes": "Sick",
+    "noofleaves": "8",
+    "remainingleaves": "4",
+    "totalleaves": "24",
+    "leavescarryforward": "2",
+    "status": "Approved"
+  },
+  {
+    "_id": "2",
+    "employeename": "Karan",
+    "to": "01-01-2022",
+    "from": "10-01-2022",
+    "leavetypes": "Sick",
+    "noofleaves": "8",
+    "remainingleaves": "4",
+    "totalleaves": "24",
+    "leavescarryforward": "2",
+    "status": "Pending"
+  }
+]

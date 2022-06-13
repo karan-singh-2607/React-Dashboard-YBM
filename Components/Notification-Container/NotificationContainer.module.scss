@@ -1,0 +1,27 @@
+@use '../../styles/variables';
+
+.NavNotification {
+  background-color: variables.$White;
+  border-radius: 0.625rem;
+  box-shadow: variables.$Box_Shadow;
+}
+.NotificationHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.87rem;
+  border-color: variables.$Border_color;
+  border-bottom-style: solid;
+  border-bottom-width: 1;
+  h4 {
+    font-size: 16;
+    font-weight: 600;
+  }
+  button {
+    color: variables.$Theme_primary;
+    font-weight: 400;
+  }
+}
+.notification {
+  top: 5px !important;
+}

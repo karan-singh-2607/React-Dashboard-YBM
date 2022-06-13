@@ -1,0 +1,77 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb",
+    "eslint:recommended",
+    "next",
+    "plugin:react/jsx-runtime",
+    "plugin:react-hooks/recommended",
+    "prettier",
+    "plugin:jsx-a11y/recommended"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "jsx-a11y"],
+  "rules": {
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "no-unused-vars": "warn",
+    "react/prop-types": [1, { "ignore": ["ignore"], "customValidators": ["customValidator"] }],
+    "react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
+    "react-hooks/exhaustive-deps": "warn",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-fragments": [0],
+    "no-console": 0,
+    "react/destructuring-assignment": [0, "always", { "ignoreClassFields": true }],
+    "enforceForClassMembers": 0,
+    "react/require-default-props": 0,
+    "camelcase": ["warn"],
+    "jsx-a11y/anchor-is-valid": 1,
+    "jsx-a11y/alt-text": [
+      1,
+      {
+        "elements": ["img", "object", "area", "input[type=\"image\"]"],
+        "img": ["Image"],
+        "object": ["Object"],
+        "area": ["Area"],
+        "input[type=\"image\"]": ["InputImage"]
+      }
+    ],
+    "no-use-before-define": ["warn", { "variables": false }],
+    "react/jsx-props-no-spreading": [
+      0,
+      {
+        "html": "ignore",
+        "custom": "ignore",
+        "explicitSpread": "ignore"
+      }
+    ],
+    "no-underscore-dangle": ["error", { "allow": ["_id"] }],
+    "no-constant-condition": ["error", { "checkLoops": false }],
+    "import/no-unresolved": [1, { "caseSensitive": false }],
+    "react/jsx-no-bind": [
+      1,
+      {
+        "ignoreDOMComponents": true,
+        "allowArrowFunctions": true,
+        "allowFunctions": true
+      }
+    ],
+    "no-param-reassign": ["error", { "props": false }]
+  },
+  "settings": {
+    "react": {
+      "version": "latest"
+    },
+    "import/core-modules": ["@ant-design/icons"]
+  }
+}

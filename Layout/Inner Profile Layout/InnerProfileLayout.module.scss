@@ -1,0 +1,13 @@
+@use '../../styles/variables';
+
+.LayoutContainer {
+  padding: 25px;
+  min-height: 100vh;
+}
+.ColContiner {
+  width: 256px;
+}
+.InnerProfileContainer {
+  padding: 1rem;
+  width: calc(100% - 256px);
+}

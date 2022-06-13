@@ -1,0 +1,42 @@
+@use '../../../../styles/variables';
+
+.LeavesForm {
+  width: 100%;
+  margin-left: 10px;
+}
+.FormContainerStyle {
+  margin: 20px;
+}
+.DatePickerContainer {
+  width: 90%;
+}
+.RowAvatar {
+  width: 100%;
+  justify-content: end;
+  padding-bottom: 20px;
+  & div {
+    display: inline-flex;
+    align-items: center;
+    justify-content: end;
+  }
+}
+.AvatarContainer {
+  display: inherit;
+  margin-left: 5px;
+  align-items: right;
+}
+.AvatarName {
+  color: #f56a00;
+  background-color: #fde3cf;
+  margin-right: 10px;
+}
+.SelectDropdown {
+  min-width: 100%;
+}
+.TextAreaContainer {
+  height: 100;
+  width: 100%;
+}
+.AnchorContainer {
+  padding-left: 50px;
+}

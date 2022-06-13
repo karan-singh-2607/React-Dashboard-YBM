@@ -1,0 +1,39 @@
+@use '../../styles//variables';
+
+.EployeeDataContainer {
+  flex-wrap: wrap;
+  & .UserContainer {
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 100%;
+    & div {
+      max-width: 15%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      & strong {
+        margin-top: 15px;
+      }
+    }
+  }
+  & .contentContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    & div {
+      flex-basis: 25%;
+      text-transform: capitalize;
+      margin-bottom: 10px;
+    }
+  }
+  & .LastModified {
+    position: absolute;
+    right: 25px;
+    top: 60px;
+    font-size: 12px;
+    color: #c2c2c2;
+  }
+}

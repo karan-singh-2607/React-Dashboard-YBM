@@ -1,0 +1,55 @@
+@use '../../../styles/variables';
+
+.LoginContainer {
+  min-height: 100vh;
+  background-color: variables.$White;
+}
+.Heading {
+  margin-bottom: 40px;
+}
+.FormContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: inherit;
+}
+.Divider {
+  color: variables.$Text_gray;
+}
+.GoogleIconBtn {
+  text-align: center;
+}
+.ImageContainer {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  min-height: 100%;
+  flex-direction: column;
+}
+.BackgroundContainer {
+  background-color: variables.$Theme_primary;
+  background-image: 'url(../../../public/assets/Images/Login_images/Loginbackgroundimg.jpg)';
+  background-repeat: no-repeat;
+  //  height: '100%',
+  background-size: cover;
+}
+.LogoContainer {
+  text-align: right;
+}
+.siderImage {
+  // marginTop: '37px';
+  color: variables.$White;
+  margin-bottom: 5px;
+}
+.WelcomeConatiner {
+  color: variables.$White;
+  font-weight: 700;
+}
+.InnerConatiner {
+  color: variables.$White;
+  font-size: 15px;
+}
+.policyContainer {
+  color: variables.$White;
+  font-weight: 500;
+}

@@ -1,0 +1,35 @@
+@use '../../styles/variables';
+
+.Avatar {
+  color: variables.$Primary_text_color;
+  font-weight: 600;
+}
+
+.ProfileHeader {
+  border-bottom-width: 1;
+  border-bottom-color: variables.$Border_color;
+  border-bottom-style: solid;
+  padding: 20px;
+  color: variables.$Primary_text_color;
+  font-size: 20;
+  font-weight: 600;
+}
+.profileDropdown {
+  border-radius: 0.625rem;
+  background-color: variables.$White;
+  box-shadow: variables.$Box_Shadow;
+  top: 24px;
+  li {
+    padding: 8px 16px;
+    span > a {
+      color: variables.$Secondary_text_color;
+      span + span {
+        margin-left: 10px;
+        font-weight: 400;
+        font-size: 16;
+      }
+    }
+  }
+}
+.MenuItem {
+}

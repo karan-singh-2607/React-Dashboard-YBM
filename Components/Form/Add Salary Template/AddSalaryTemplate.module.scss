@@ -1,0 +1,17 @@
+@use '../../../styles/variables';
+
+.cardContainer {
+  background-color: variables.$White !important;
+}
+.RowContainer {
+  padding-top: 15px;
+  .CheckboxContainer {
+    flex-direction: column;
+    .antCol {
+      padding: 5px 0 !important;
+    }
+    .FormConatiner {
+      margin-bottom: 0;
+    }
+  }
+}
